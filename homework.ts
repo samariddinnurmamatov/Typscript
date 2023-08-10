@@ -50,6 +50,25 @@
 // const outputText = getStringArr(arr)
 // console.log(outputText);
 
+// MISOL - 4
+
+function getPunctuationNumber(str: string): number {
+    const punctuationSigns = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~', "'"];
+    
+    let punctuationCount = 0;
+    
+    for (const char of str) {
+        if (punctuationSigns.includes(char)) {
+            punctuationCount++;
+        }
+    }
+    
+    return punctuationCount;
+}
+
+const str = "Hello! How are you? I'm doing great. What's new?";
+const result = getPunctuationNumber(str);
+console.log(result); // Output: 6
 
 
 // MISOL-5
@@ -161,7 +180,7 @@
 // ];
 
 // const totalPagesRead = getTotalPages(books);
-// console.log(`Total pages read: ${totalPagesRead}`);
+// console.log(`Total page: ${totalPagesRead}`);
 
 
 // MISOL-9 
@@ -174,7 +193,6 @@
 //   return Object.keys(this);
 // };
 
-// // Test
 // let obj = { a: 1, b: 2, c: 3 };
 // const result = obj.keys();
 // console.log(result);
@@ -212,7 +230,6 @@
 //   }
 // }
 
-// // Test
 // let student = new Student("Abdulaziz", "Programmer", "TATU", 3, 4, true);
 // const info = student.getInfo();
 // console.log(info);

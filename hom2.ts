@@ -45,7 +45,6 @@
 //     return result;
 // }
 
-// // Test
 // let arr = [2, 5, 7, 10, 0, 18, 15];
 // let n = 5;
 // const result = getDividers(arr, n);
@@ -80,7 +79,6 @@
 //   return charCount;
 // }
 
-// // Test
 // let str = "Abdulaziz Programmer";
 // const result = getCharCountObj(str);
 // console.log(result);
@@ -100,7 +98,6 @@
 //     return result;
 // }
 
-// // Test
 // let obj = {a: 1, b: 2, c: 3};
 // const result = changeObjToString(obj);
 // console.log(result); // a1b2c3
@@ -115,7 +112,6 @@
 //   return products.filter((product) => !ids.includes(product.id));
 // }
 
-// // Test
 // const products = [
 //   { id: 1, name: "Bike", price: 100 },
 //   { id: 2, name: "TV", price: 400 },
@@ -150,7 +146,6 @@
 //   });
 // }
 
-// // Test
 // const products = [
 //   { id: 1, name: "Bike", price: 100 },
 //   { id: 2, name: "TV", price: 400 },
@@ -179,7 +174,6 @@
 //     return count;
 // };
 
-// // Test
 // let str = "Abdulaziz Programmer";
 // let char = "a";
 // const result = str.count(char);
@@ -203,7 +197,6 @@
 //     return `${this.firstName} ${this.lastName} ${this.workPlace}da ${totalSalary}$ oylik evaziga ${workType} ishlaydi.`;
 // }
 
-// // Test
 // let emp1 = new Employee("Abdulaziz", "Programmer", "Najot ta'lim", 10000, 20, false);
 // let emp2 = new Employee("Abdulaziz", "Programmer", "Najot ta'lim", 5000, 40, true);
 // console.log(emp1.getInfo());
